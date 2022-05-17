@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMART AGRICULTURE</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="Pic/logo3-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="index.html">HOME</a></li>
+                
+                <li><a href="Seed.html">SEED</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+                <li><a href="Account.html">ACCOUNT</a></li>
+                 
+             </ul>   
+            </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div>
+    
+    </section>
+    <!---------------Contact Us-------------->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1EKrvpydeECY7QwBRk_IUBcax79Y&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+
+     </section>
+
+     <section class="contact-us">
+         <div class="row">
+             <div class="contact-col">
+                 <div>
+                 <i class="fa fa-home"></i>
+                 <span>
+                     <h5>Marwadi University</h5>
+                     <p>Rajkot,Gujart(Morbi Road)</p>
+                 </span>
+             </div>
+             <div>
+             <i class="fa fa-phone"></i>
+             <span>
+                 <h5>+91-7257963716 <br>+91-8676885171</h5>
+                 <p>Manday to Saturday, 10:00AM to 5:00PM</p>
+             </span>
+         </div>
+     <div>
+          <i class="fa fa-envelope-o"></i>
+        <span>
+            <h5>ankitroy7257@gmail.com</h5>
+            <p>Email us your query</p>
+        </span>
+    </div>
+    <div>
+        <i class="fa fa-clock-o"></i>
+      <span>
+          <h5>24X7 Hours</h5>
+          <p>Emergency</p>
+      </span>
+  </div>
+   </div>
+
+<div class="contact-col">
+
+         <form action="form-handler.php" method="post">
+             Name    :<input type="text" name="name"  placeholder="Enter Your Name" required>
+             Email Id:<input type="email" name="email" placeholder="Enter Your Email Address" required>
+             Subject :<input type="text" name="subject" placeholder="Enter Your Subject" required>
+             Comment :<textarea rows="8" name="message" iframe src="https://www.google.com/maps/d/embed?mid=1EKrvpydeECY7QwBRk_IUBcax79Y&hl=en&ehbc=2E312F" width="640" height="480" placeholder="Drop Your Message Here" required></textarea>
+             <button type="Submit" class="hero-btn red-btn">Send Message</button>
+         </form>
+</div>
+ </div>
+</section>
+    <!----------------Fotter Content----------->
+
+    <section class="footer">
+        
+        <h4>About Us</h4>
+        <p>We Are The State Largest Farmer In INDIA<br>
+            We Feel Proud That We Are An INDIAN Farmer.
+        </p>    
+        <div  class="icons">
+            <a href="https://www.facebook.com/people/Ankit-Roy/100016724381897/"><i class="fa fa-facebook"></i></a>
+            <i class="fa fa-twitter"></i>
+            <a href="https://www.instagram.com/_ankit_roy72/"><i class="fa fa-instagram"></i></a>
+            <a href="www.linkedin.com/in/ankit-roy-12807b219"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p> Made With <i class="fa fa-heart-o"></i>by Mr.Roy</p>
+    
+        <p class="Copyright">© Copyright 2022 - Ankit Roy</p>
+    </section>
+    
+    
+    <!---------JavaScript for Toggle Menu--------->
+        <script>
+    
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+    
+    </body>
+    </html>
